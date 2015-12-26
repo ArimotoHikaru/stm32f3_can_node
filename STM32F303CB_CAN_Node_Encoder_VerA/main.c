@@ -4,7 +4,7 @@
 #include "VCP_F3.c"
 #endif
 
-
+/*USB関連*/
 // Unused global variables that have to be included to ensure correct compiling */
 // ###### DO NOT CHANGE ######
 // ===============================================================================
@@ -32,19 +32,21 @@ int main(void)
     	if(ticker>500){
     		ticker=0;
 
-    		GPIO_WriteBit(GPIOB,GPIO_Pin_13,ledflag);
-    		GPIO_WriteBit(GPIOB,GPIO_Pin_14,ledflag);
-    		GPIO_WriteBit(GPIOB,GPIO_Pin_15,ledflag);
-
      		if(ledflag != 0){
     			ledflag=0;
+    			LEDOn(LED1);
+    			LEDOn(LED2);
+    			LEDOn(LED3);
     		}else{
     			ledflag=1;
+    			LEDOff(LED1);
+				LEDOff(LED2);
+				LEDOff(LED3);
     		}
 
     		sprintf(str_buf,"TIM1:%d TIM2:%d TIM3:%d TIM4:%d\n\r", Encoder_Count(TIM1), Encoder_Count(TIM2), Encoder_Count(TIM3), Encoder_Count(TIM4));
-     		transmit_usart2_dma(str_buf);
-    		//VCP_PutStr(str_buf);//USBの送信は500ms以上の間隔で送信すること
+    		COM_Transmit(str_buf);
+
     	}
     }
 }
@@ -102,6 +104,47 @@ void LED_configuration (void)
 
 }
 
+void LEDOn(MyLed_TypeDef Led)
+{
+	switch(Led){
+	case LED1:
+	  GPIO_WriteBit(GPIOB,GPIO_Pin_13,1);
+	  break;
+	case LED2:
+	  GPIO_WriteBit(GPIOB,GPIO_Pin_14,1);
+	  break;
+	case LED3:
+	  GPIO_WriteBit(GPIOB,GPIO_Pin_15,1);
+	  break;
+	}
+}
+
+void LEDOff(MyLed_TypeDef Led)
+{
+	switch(Led){
+	case LED1:
+	  GPIO_WriteBit(GPIOB,GPIO_Pin_13,0);
+	  break;
+	case LED2:
+	  GPIO_WriteBit(GPIOB,GPIO_Pin_14,0);
+	  break;
+	case LED3:
+	  GPIO_WriteBit(GPIOB,GPIO_Pin_15,0);
+	  break;
+	}
+}
+
+void COM_Transmit(char str[])
+{
+#ifdef USE_USART2
+	transmit_usart2_dma(str);
+#elif USE_USB
+	VCP_PutStr(str);//USBの送信は500ms以上の間隔で送信すること
+#endif
+}
+
+
+/*これより下USB関連*/
 // Function to insert a timing delay of nTime
 // ###### DO NOT CHANGE ######
 void Delay(__IO uint32_t nTime)

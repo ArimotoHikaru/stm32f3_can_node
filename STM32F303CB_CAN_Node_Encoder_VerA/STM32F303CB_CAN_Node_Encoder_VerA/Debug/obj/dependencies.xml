@@ -530,7 +530,7 @@
          <include file="..\..\..\cmsis\core_cm4.h"/>
          <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
       </source>
-      <source file="..\..\..\can.c" lastModified="151dcdddea3">
+      <source file="..\..\..\can.c" lastModified="151ddefd5fb">
          <include file="..\..\..\can.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f30x_crc.h" lastModified="151abb7747a">
@@ -576,14 +576,6 @@
          <include file="..\..\..\VCP-Files\usb_desc.h"/>
          <include file="..\..\..\VCP-Files\hw_config.h"/>
          <include file="..\..\..\VCP-Files\usb_pwr.h"/>
-         <include file="..\..\..\VCP-Files\stm32f30x_conf.h"/>
-      </source>
-      <source file="..\..\..\VCP_F3.c" lastModified="14ed7e330b5">
-         <include file="..\..\..\VCP-Files\hw_config.h"/>
-         <include file="..\..\..\usb_lib.h"/>
-         <include file="..\..\..\VCP-Files\usb_desc.h"/>
-         <include file="..\..\..\VCP-Files\usb_pwr.h"/>
-         <include file="..\..\..\VCP-Files\usb_prop.h"/>
          <include file="..\..\..\VCP-Files\stm32f30x_conf.h"/>
       </source>
       <source file="..\..\..\usb_src\usb_mem.c" lastModified="13c5e5d7e7b">
@@ -664,13 +656,12 @@
          <include file="..\..\..\usb_inc\usb_mem.h"/>
          <include file="..\..\..\usb_inc\usb_int.h"/>
       </source>
-      <source file="..\..\..\main.h" lastModified="151dd05a02a">
+      <source file="..\..\..\main.h" lastModified="151de216cf9">
          <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
          <include file="..\..\..\stm32f30x_it.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
-         <include file="..\..\..\STM32303C_EVAL\stm32303c_eval.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f30x_can.h"/>
          <include file="..\..\..\usart.h"/>
          <include file="..\..\..\tim_encoder.h"/>
@@ -704,10 +695,6 @@
       </source>
       <source file="..\..\..\VCP-Files\usb_istr.h" lastModified="13a01972e80">
          <include file="..\..\..\VCP-Files\usb_conf.h"/>
-      </source>
-      <source file="..\..\..\main.c" lastModified="151dd05a01a">
-         <include file="..\..\..\main.h"/>
-         <include file="..\..\..\VCP_F3.c"/>
       </source>
       <source file="..\..\..\STM32303C_EVAL\stm32_eval_legacy.h" lastModified="151d8e3f4ab">
       </source>

@@ -104,26 +104,26 @@
     <File name="nvic.h" path="nvic.h" type="1"/>
     <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
-    <File name="VCP-Files/platform_config.h" path="VCP-Files/platform_config.h" type="1"/>
     <File name="STM32303C_EVAL/stm32_eval_legacy.h" path="STM32303C_EVAL/stm32_eval_legacy.h" type="1"/>
+    <File name="VCP-Files/platform_config.h" path="VCP-Files/platform_config.h" type="1"/>
     <File name="usb_inc/usb_core.h" path="usb_inc/usb_core.h" type="1"/>
     <File name="main.h" path="main.h" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_dbgmcu.h" path="cmsis_lib/include/stm32f30x_dbgmcu.h" type="1"/>
-    <File name="tim_encoder.h" path="tim_encoder.h" type="1"/>
     <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="tim_encoder.h" path="tim_encoder.h" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_i2c.h" path="cmsis_lib/include/stm32f30x_i2c.h" type="1"/>
     <File name="usb_src/usb_mem.c" path="usb_src/usb_mem.c" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_comp.c" path="cmsis_lib/source/stm32f30x_comp.c" type="1"/>
     <File name="cmsis_boot/system_stm32f30x.h" path="cmsis_boot/system_stm32f30x.h" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_rtc.h" path="cmsis_lib/include/stm32f30x_rtc.h" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_adc.c" path="cmsis_lib/source/stm32f30x_adc.c" type="1"/>
-    <File name="cmsis_lib/source/stm32f30x_wwdg.c" path="cmsis_lib/source/stm32f30x_wwdg.c" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_crc.c" path="cmsis_lib/source/stm32f30x_crc.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f30x_wwdg.c" path="cmsis_lib/source/stm32f30x_wwdg.c" type="1"/>
     <File name="usb_inc/usb_init.h" path="usb_inc/usb_init.h" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_dac.c" path="cmsis_lib/source/stm32f30x_dac.c" type="1"/>
     <File name="VCP-Files/stm32f30x_conf.h" path="VCP-Files/stm32f30x_conf.h" type="1"/>
-    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis_boot/stm32f30x.h" path="cmsis_boot/stm32f30x.h" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_i2c.c" path="cmsis_lib/source/stm32f30x_i2c.c" type="1"/>
     <File name="usart.h" path="usart.h" type="1"/>
     <File name="usb_src/usb_int.c" path="usb_src/usb_int.c" type="1"/>
@@ -143,8 +143,8 @@
     <File name="cmsis_lib/source/stm32f30x_opamp.c" path="cmsis_lib/source/stm32f30x_opamp.c" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_usart.c" path="cmsis_lib/source/stm32f30x_usart.c" type="1"/>
     <File name="VCP-Files" path="" type="2"/>
-    <File name="VCP-Files/usb_prop.c" path="VCP-Files/usb_prop.c" type="1"/>
     <File name="main.c" path="main.c" type="1"/>
+    <File name="VCP-Files/usb_prop.c" path="VCP-Files/usb_prop.c" type="1"/>
     <File name="usb_inc/usb_regs.h" path="usb_inc/usb_regs.h" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_gpio.h" path="cmsis_lib/include/stm32f30x_gpio.h" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_pwr.h" path="cmsis_lib/include/stm32f30x_pwr.h" type="1"/>
@@ -157,8 +157,8 @@
     <File name="VCP-Files/hw_config.c" path="VCP-Files/hw_config.c" type="1"/>
     <File name="usb_src/usb_sil.c" path="usb_src/usb_sil.c" type="1"/>
     <File name="cmsis_boot/startup" path="" type="2"/>
-    <File name="cmsis_lib/include/stm32f30x_dma.h" path="cmsis_lib/include/stm32f30x_dma.h" type="1"/>
     <File name="stm32f30x_it.h" path="stm32f30x_it.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f30x_dma.h" path="cmsis_lib/include/stm32f30x_dma.h" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_misc.c" path="cmsis_lib/source/stm32f30x_misc.c" type="1"/>
     <File name="cmsis/core_cm4.h" path="cmsis/core_cm4.h" type="1"/>
     <File name="usb_inc/usb_sil.h" path="usb_inc/usb_sil.h" type="1"/>
@@ -176,16 +176,16 @@
     <File name="cmsis_lib/source/stm32f30x_dbgmcu.c" path="cmsis_lib/source/stm32f30x_dbgmcu.c" type="1"/>
     <File name="VCP-Files/usb_istr.c" path="VCP-Files/usb_istr.c" type="1"/>
     <File name="VCP-Files/usb_pwr.h" path="VCP-Files/usb_pwr.h" type="1"/>
-    <File name="can.c" path="can.c" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_misc.h" path="cmsis_lib/include/stm32f30x_misc.h" type="1"/>
-    <File name="cmsis_lib/include/stm32f30x_usart.h" path="cmsis_lib/include/stm32f30x_usart.h" type="1"/>
+    <File name="can.c" path="can.c" type="1"/>
     <File name="VCP-Files/usb_prop.h" path="VCP-Files/usb_prop.h" type="1"/>
+    <File name="cmsis_lib/include/stm32f30x_usart.h" path="cmsis_lib/include/stm32f30x_usart.h" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_rtc.c" path="cmsis_lib/source/stm32f30x_rtc.c" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_crc.h" path="cmsis_lib/include/stm32f30x_crc.h" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_spi.c" path="cmsis_lib/source/stm32f30x_spi.c" type="1"/>
     <File name="cmsis_lib/source/stm32f30x_syscfg.c" path="cmsis_lib/source/stm32f30x_syscfg.c" type="1"/>
-    <File name="cmsis_lib/source/stm32f30x_dma.c" path="cmsis_lib/source/stm32f30x_dma.c" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_syscfg.h" path="cmsis_lib/include/stm32f30x_syscfg.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f30x_dma.c" path="cmsis_lib/source/stm32f30x_dma.c" type="1"/>
     <File name="cmsis_lib/include/stm32f30x_iwdg.h" path="cmsis_lib/include/stm32f30x_iwdg.h" type="1"/>
     <File name="usb_inc/usb_lib.h" path="usb_inc/usb_lib.h" type="1"/>
     <File name="STM32303C_EVAL/stm32303c_eval.c" path="STM32303C_EVAL/stm32303c_eval.c" type="1"/>
