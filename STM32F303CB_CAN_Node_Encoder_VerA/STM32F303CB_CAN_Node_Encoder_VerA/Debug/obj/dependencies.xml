@@ -530,9 +530,6 @@
          <include file="..\..\..\cmsis\core_cm4.h"/>
          <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
       </source>
-      <source file="..\..\..\can.c" lastModified="151ddefd5fb">
-         <include file="..\..\..\can.h"/>
-      </source>
       <source file="..\..\..\cmsis_lib\include\stm32f30x_crc.h" lastModified="151abb7747a">
          <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
       </source>
@@ -576,6 +573,14 @@
          <include file="..\..\..\VCP-Files\usb_desc.h"/>
          <include file="..\..\..\VCP-Files\hw_config.h"/>
          <include file="..\..\..\VCP-Files\usb_pwr.h"/>
+         <include file="..\..\..\VCP-Files\stm32f30x_conf.h"/>
+      </source>
+      <source file="..\..\..\VCP_F3.c" lastModified="151e8deae4a">
+         <include file="..\..\..\VCP-Files\hw_config.h"/>
+         <include file="..\..\..\usb_lib.h"/>
+         <include file="..\..\..\VCP-Files\usb_desc.h"/>
+         <include file="..\..\..\VCP-Files\usb_pwr.h"/>
+         <include file="..\..\..\VCP-Files\usb_prop.h"/>
          <include file="..\..\..\VCP-Files\stm32f30x_conf.h"/>
       </source>
       <source file="..\..\..\usb_src\usb_mem.c" lastModified="13c5e5d7e7b">
@@ -656,7 +661,7 @@
          <include file="..\..\..\usb_inc\usb_mem.h"/>
          <include file="..\..\..\usb_inc\usb_int.h"/>
       </source>
-      <source file="..\..\..\main.h" lastModified="151de216cf9">
+      <source file="..\..\..\main.h" lastModified="1521edeebaf">
          <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
          <include file="..\..\..\stm32f30x_it.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
@@ -695,6 +700,10 @@
       </source>
       <source file="..\..\..\VCP-Files\usb_istr.h" lastModified="13a01972e80">
          <include file="..\..\..\VCP-Files\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="1521ee55efb">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\VCP_F3.c"/>
       </source>
       <source file="..\..\..\STM32303C_EVAL\stm32_eval_legacy.h" lastModified="151d8e3f4ab">
       </source>

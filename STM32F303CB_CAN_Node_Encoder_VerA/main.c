@@ -21,7 +21,7 @@ int main(void)
 {
 	char str_buf[200];
 	int ledflag=1;
-
+	int i=0;
 	init();
 
     while(1)
@@ -35,16 +35,17 @@ int main(void)
      		if(ledflag != 0){
     			ledflag=0;
     			LEDOn(LED1);
-    			LEDOn(LED2);
-    			LEDOn(LED3);
+    			//LEDOn(LED2);
+    			//LEDOn(LED3);
     		}else{
     			ledflag=1;
     			LEDOff(LED1);
-				LEDOff(LED2);
-				LEDOff(LED3);
+				//LEDOff(LED2);
+				//LEDOff(LED3);
     		}
 
     		sprintf(str_buf,"TIM1:%d TIM2:%d TIM3:%d TIM4:%d\n\r", Encoder_Count(TIM1), Encoder_Count(TIM2), Encoder_Count(TIM3), Encoder_Count(TIM4));
+     		//sprintf(str_buf,"Hello %d\n\r",ledflag);
     		COM_Transmit(str_buf);
 
     	}
@@ -88,33 +89,32 @@ void LED_configuration (void)
 {
 	GPIO_InitTypeDef GPIO_InitStructure;
 
-	RCC_AHBPeriphClockCmd( RCC_AHBPeriph_GPIOB ,ENABLE);
+	RCC_AHBPeriphClockCmd( LED1_GPIO_CLK ,ENABLE);
 
-	GPIO_InitStructure.GPIO_Pin 	= GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
+	GPIO_InitStructure.GPIO_Pin 	= LED1_PIN | LED2_PIN | LED3_PIN;
 	GPIO_InitStructure.GPIO_Mode 	= GPIO_Mode_OUT;
 	GPIO_InitStructure.GPIO_OType 	= GPIO_OType_PP;
 	GPIO_InitStructure.GPIO_PuPd 	= GPIO_PuPd_NOPULL;
 	GPIO_InitStructure.GPIO_Speed 	= GPIO_Speed_Level_3;
-	GPIO_Init(GPIOB, &GPIO_InitStructure);
+	GPIO_Init(LED1_GPIO_PORT, &GPIO_InitStructure);
 
 	//è¡ìî
-	GPIO_WriteBit(GPIOB,GPIO_Pin_13,0);
-	GPIO_WriteBit(GPIOB,GPIO_Pin_14,0);
-	GPIO_WriteBit(GPIOB,GPIO_Pin_15,0);
-
+	GPIO_WriteBit(LED1_GPIO_PORT,LED1_PIN,0);
+	GPIO_WriteBit(LED2_GPIO_PORT,LED2_PIN,0);
+	GPIO_WriteBit(LED3_GPIO_PORT,LED3_PIN,0);
 }
 
 void LEDOn(MyLed_TypeDef Led)
 {
 	switch(Led){
 	case LED1:
-	  GPIO_WriteBit(GPIOB,GPIO_Pin_13,1);
+	  GPIO_WriteBit(LED1_GPIO_PORT,LED1_PIN,1);
 	  break;
 	case LED2:
-	  GPIO_WriteBit(GPIOB,GPIO_Pin_14,1);
+	  GPIO_WriteBit(LED2_GPIO_PORT,LED2_PIN,1);
 	  break;
 	case LED3:
-	  GPIO_WriteBit(GPIOB,GPIO_Pin_15,1);
+	  GPIO_WriteBit(LED3_GPIO_PORT,LED3_PIN,1);
 	  break;
 	}
 }
@@ -123,13 +123,13 @@ void LEDOff(MyLed_TypeDef Led)
 {
 	switch(Led){
 	case LED1:
-	  GPIO_WriteBit(GPIOB,GPIO_Pin_13,0);
+	  GPIO_WriteBit(LED1_GPIO_PORT,LED1_PIN,0);
 	  break;
 	case LED2:
-	  GPIO_WriteBit(GPIOB,GPIO_Pin_14,0);
+	  GPIO_WriteBit(LED2_GPIO_PORT,LED2_PIN,0);
 	  break;
 	case LED3:
-	  GPIO_WriteBit(GPIOB,GPIO_Pin_15,0);
+	  GPIO_WriteBit(LED3_GPIO_PORT,LED3_PIN,0);
 	  break;
 	}
 }
@@ -138,7 +138,9 @@ void COM_Transmit(char str[])
 {
 #ifdef USE_USART2
 	transmit_usart2_dma(str);
-#elif USE_USB
+#endif
+
+#ifdef USE_USB
 	VCP_PutStr(str);//USBÇÃëóêMÇÕ500msà»è„ÇÃä‘äuÇ≈ëóêMÇ∑ÇÈÇ±Ç∆
 #endif
 }

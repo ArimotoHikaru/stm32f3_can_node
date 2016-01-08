@@ -17,17 +17,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1515" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="856" selectionTopPixel="498"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.h" title="main.h" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2763" selectionTopPixel="1479"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="can.h" partName="can.h" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.h" title="can.h" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="can.c" partName="can.c" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.c" title="can.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8442" selectionTopPixel="5101"/>
 </editor>
 </editors>
 <views>
@@ -222,7 +227,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@11c14ee" ratio="0.6993671" ratioLeft="884" ratioRight="380" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6a8a32">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
@@ -265,165 +270,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/stm32f30x_it.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/tim_encoder.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/usart.c"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\CooCox\CoIDE\workspace\STM32F303CB_CAN_Node_Encoder_VerA\VCP_F3.c" project="STM32F303CB_CAN_Node_Encoder_VerA"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/nvic.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/VCP-Files/hw_config.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/stm32f30x.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/stm32f30x_it.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
 </editors>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="8447" y="0"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="8451" y="0"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="8412" y="17"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="1952" y="11"/>
-</item>
 <item historyLabel="stm32f30x_it.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="5245" y="17"/>
 </item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="1952" y="11"/>
-</item>
-<item historyLabel="stm32f30x_it.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="12685" y="25"/>
-</item>
-<item historyLabel="can.h" index="4">
-<position info="not_deleted" x="423" y="14"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1944" y="0"/>
-</item>
-<item historyLabel="can.h" index="4">
-<position info="not_deleted" x="444" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="3210" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="3210" y="0"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="12685" y="25"/>
-</item>
-<item historyLabel="stm32f30x_it.c" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="717" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="2767" y="0"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="12685" y="25"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1239" y="0"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="8271" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="2820" y="7"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="8252" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="2812" y="0"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="8252" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1285" y="0"/>
-</item>
-<item historyLabel="main.h" index="1">
-<position info="not_deleted" x="3210" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1285" y="0"/>
-</item>
-<item historyLabel="can.h" index="4">
-<position info="not_deleted" x="451" y="11"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1285" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1029" y="11"/>
-</item>
-<item historyLabel="can.c" index="3">
-<position info="not_deleted" x="13797" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1029" y="11"/>
-</item>
-<item historyLabel="tim_encoder.c" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="can.c" index="6">
+<item historyLabel="hw_config.c" index="5">
 <position/>
 </item>
-<item historyLabel="tim_encoder.c" index="5">
-<position info="not_deleted" x="1302" y="15"/>
+<item historyLabel="VCP_F3.c" index="3">
+<position info="not_deleted" x="1841" y="10"/>
 </item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="hw_config.c" index="5">
 <position/>
 </item>
-<item historyLabel="usart.c" index="7">
+<item historyLabel="VCP_F3.c" index="3">
+<position info="not_deleted" x="1841" y="10"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="1750" y="8"/>
+</item>
+<item historyLabel="main.h" index="0">
+<position info="not_deleted" x="993" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="1222" y="0"/>
+</item>
+<item historyLabel="stm32f30x_it.c" index="2">
+<position info="not_deleted" x="4926" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="1246" y="0"/>
+</item>
+<item historyLabel="nvic.c" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
+<item historyLabel="main.h" index="0">
+<position info="not_deleted" x="993" y="0"/>
+</item>
+<item historyLabel="nvic.c" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VCP_F3.c" index="3">
+<position info="not_deleted" x="1841" y="10"/>
+</item>
+<item historyLabel="nvic.c" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="stm32f30x_it.c" index="2">
+<position info="not_deleted" x="4926" y="0"/>
+</item>
+<item historyLabel="nvic.c" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="VCP_F3.c" index="3">
+<position info="not_deleted" x="1877" y="21"/>
+</item>
+<item historyLabel="hw_config.c" index="5">
+<position info="not_deleted" x="8558" y="14"/>
+</item>
+<item historyLabel="stm32f30x.h" index="6">
 <position/>
 </item>
-<item historyLabel="can.c" index="6">
+<item historyLabel="hw_config.c" index="5">
+<position info="not_deleted" x="8558" y="14"/>
+</item>
+<item historyLabel="stm32f30x.h" index="6">
+<position info="not_deleted" x="12826" y="13"/>
+</item>
+<item historyLabel="hw_config.c" index="5">
+<position info="not_deleted" x="8558" y="14"/>
+</item>
+<item historyLabel="VCP_F3.c" index="3">
+<position info="not_deleted" x="1877" y="21"/>
+</item>
+<item historyLabel="main.h" index="0">
+<position info="not_deleted" x="993" y="0"/>
+</item>
+<item historyLabel="stm32f30x_it.c" index="2">
+<position info="not_deleted" x="6030" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="1222" y="0"/>
+</item>
+<item historyLabel="main.h" index="0">
+<position info="not_deleted" x="993" y="0"/>
+</item>
+<item historyLabel="stm32f30x_it.c" index="2">
+<position info="not_deleted" x="5845" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="663" y="0"/>
+</item>
+<item historyLabel="stm32f30x_it.c" index="2">
+<position info="not_deleted" x="5845" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="663" y="0"/>
+</item>
+<item historyLabel="stm32f30x_it.c" index="2">
+<position info="not_deleted" x="5845" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="663" y="0"/>
+</item>
+<item historyLabel="main.h" index="0">
+<position info="not_deleted" x="993" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="663" y="0"/>
+</item>
+<item historyLabel="main.h" index="7">
+<position info="not_deleted" x="2483" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="742" y="14"/>
+</item>
+<item historyLabel="can.c" index="8">
+<position info="not_deleted" x="12700" y="14"/>
+</item>
+<item historyLabel="stm32f30x_it.c" index="9">
+<position info="not_deleted" x="5845" y="0"/>
+</item>
+<item historyLabel="can.c" index="8">
+<position info="not_deleted" x="10906" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="742" y="14"/>
+</item>
+<item historyLabel="main.h" index="7">
+<position info="not_deleted" x="2483" y="0"/>
+</item>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="742" y="14"/>
+</item>
+<item historyLabel="can.h" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.h" index="8">
-<position info="not_deleted" x="3206" y="0"/>
+<item historyLabel="can.c" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1029" y="0"/>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="742" y="14"/>
 </item>
-<item historyLabel="main.h" index="8">
-<position info="not_deleted" x="2763" y="0"/>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="663" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="696" y="0"/>
+<item historyLabel="main.c" index="1">
+<position info="not_deleted" x="856" y="0"/>
 </item>
-<item historyLabel="can.c" index="6">
-<position info="not_deleted" x="1941" y="0"/>
-</item>
-<item historyLabel="main.h" index="8">
-<position info="not_deleted" x="2763" y="0"/>
-</item>
-<item historyLabel="can.c" index="6">
-<position info="not_deleted" x="1941" y="0"/>
-</item>
-<item historyLabel="main.h" index="8">
-<position info="not_deleted" x="2763" y="0"/>
-</item>
-<item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="696" y="0"/>
+<item active="true" historyLabel="can.c" index="8">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -435,47 +442,44 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="can.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/can.c">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/usart.c">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/usart.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim_encoder.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/tim_encoder.c">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/tim_encoder.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_conf.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/VCP-Files/usb_conf.h">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/VCP-Files/usb_conf.h"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="can.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/can.h">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_it.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/stm32f30x_it.c">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/stm32f30x_it.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_can.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/include/stm32f30x_can.h">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/include/stm32f30x_can.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/stm32f30x.h">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/stm32f30x.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_can.h" tooltip="STM32F303_CAN_TEST/cmsis_lib/include/stm32f30x_can.h">
-<persistable path="/STM32F303_CAN_TEST/cmsis_lib/include/stm32f30x_can.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hw_config.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/VCP-Files/hw_config.c">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/VCP-Files/hw_config.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_it.c" tooltip="STM32F303_CAN_TEST/stm32f30x_it.c">
-<persistable path="/STM32F303_CAN_TEST/stm32f30x_it.c"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="VCP_F3.c" tooltip="C:\CooCox\CoIDE\workspace\STM32F303CB_CAN_Node_Encoder_VerA\VCP_F3.c">
+<persistable path="C:\CooCox\CoIDE\workspace\STM32F303CB_CAN_Node_Encoder_VerA\VCP_F3.c" project="STM32F303CB_CAN_Node_Encoder_VerA"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="nvic.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/nvic.c">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/nvic.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim_encoder.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/tim_encoder.h">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/tim_encoder.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/main.h">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32303c_eval.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_gpio.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/include/stm32f30x_gpio.h">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/include/stm32f30x_gpio.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_rcc.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/source/stm32f30x_rcc.c">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/source/stm32f30x_rcc.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f30x_gpio.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/source/stm32f30x_gpio.c">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_lib/source/stm32f30x_gpio.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32303c_eval.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.c">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_eval_legacy.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32_eval_legacy.h">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32_eval_legacy.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32303c_eval.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32303c_eval.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f30x.S" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/startup/startup_stm32f30x.S">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/startup/startup_stm32f30x.S"/>
 </file>
 </mruList>
 </workbench>

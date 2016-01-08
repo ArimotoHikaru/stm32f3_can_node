@@ -30,8 +30,37 @@ typedef enum
   LED3 = 2
 } MyLed_TypeDef;
 
+
 /* Exported constants --------------------------------------------------------*/
 /* Exported macro ------------------------------------------------------------*/
+#define verA
+
+#ifdef verA
+#define LED1_PIN                         GPIO_Pin_13
+#define LED1_GPIO_PORT                   GPIOB
+#define LED1_GPIO_CLK                    RCC_AHBPeriph_GPIOB
+
+#define LED2_PIN                         GPIO_Pin_14
+#define LED2_GPIO_PORT                   GPIOB
+#define LED2_GPIO_CLK                    RCC_AHBPeriph_GPIOB
+
+#define LED3_PIN                         GPIO_Pin_15
+#define LED3_GPIO_PORT                   GPIOB
+#define LED3_GPIO_CLK                    RCC_AHBPeriph_GPIOB
+#else
+#define LED1_PIN                         GPIO_Pin_8
+#define LED1_GPIO_PORT                   GPIOA
+#define LED1_GPIO_CLK                    RCC_AHBPeriph_GPIOA
+
+#define LED2_PIN                         GPIO_Pin_9
+#define LED2_GPIO_PORT                   GPIOA
+#define LED2_GPIO_CLK                    RCC_AHBPeriph_GPIOA
+
+#define LED3_PIN                         GPIO_Pin_10
+#define LED3_GPIO_PORT                   GPIOA
+#define LED3_GPIO_CLK                    RCC_AHBPeriph_GPIOA
+#endif
+
 #define USE_USART2
 #define USE_INTERRUPT_USART2_DMA
 

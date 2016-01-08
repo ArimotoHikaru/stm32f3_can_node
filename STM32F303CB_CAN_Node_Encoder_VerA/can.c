@@ -227,7 +227,7 @@ void USB_LP_CAN1_RX0_IRQHandler(void)
 
 	if (CAN_GetITStatus(CAN1,CAN_IT_FMP0)){//新しいメッセージを受信したら呼び出される
 		CAN_Receive(CAN1, CAN_FIFO0, &can_rx_flame);//受信
-		CAN_Receive_Check(&can_rx_flame);
+		CAN_Receive_Check(&can_rx_flame);//受信内容チェック
 	}
 }
 
@@ -281,7 +281,7 @@ void CAN_Receive_Check (CanRxMsg* RxMessage)
 {
 	switch(RxMessage->StdId){
 
-//エンコーダー値の要求
+//エンコーダー値の要求 リモートフレームの受信
 	//TIM1
 	case CANID_TIM1_REQUEST://エンコーダー値の要求
 
@@ -311,7 +311,7 @@ void CAN_Receive_Check (CanRxMsg* RxMessage)
 
 		break;
 
-//送信オプション変更
+//送信オプション変更 データフレームの受信
 	//TIM1
 	case CANID_TIM1_OPTION://送信オプション変更
 

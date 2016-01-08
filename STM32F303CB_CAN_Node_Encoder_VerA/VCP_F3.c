@@ -122,14 +122,15 @@ Return value		: NONE
 *********************************************************************************************/
 void VCP_PutStr(char *str)
 {
-	/*
+
 	if (packet_sent == 1)																	//make sure previous data has been sent
 		CDC_Send_DATA((unsigned char*)str, strlen(str));
-	*/
 	
+	/*
 	while(packet_sent != 1)//make sure previous data has been sent
 	{}
 	CDC_Send_DATA((unsigned char*)str, strlen(str));
+	*/
 }
 
 
