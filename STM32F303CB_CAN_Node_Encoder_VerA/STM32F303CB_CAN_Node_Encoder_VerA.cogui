@@ -18,21 +18,26 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="856" selectionTopPixel="498"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="856" selectionTopPixel="1932"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="can.h" partName="can.h" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.h" title="can.h" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="can.c" partName="can.c" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.c" title="can.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="can.c" partName="can.c" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.c" title="can.c" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/can.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8442" selectionTopPixel="5101"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2463" selectionTopPixel="565"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" partName="main.h" path="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.h" title="main.h" tooltip="C:/CooCox/CoIDE/workspace/STM32F303CB_CAN_Node_Encoder_VerA/main.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1527"/>
 </editor>
 </editors>
 <views>
@@ -47,7 +52,7 @@
 <element path="/STM32F303CB_CAN_Node_Encoder_VerA"/>
 </expanded>
 <selection>
-<element path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
+<element path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
 </selection>
 </viewState>
 </view>
@@ -132,8 +137,8 @@
 </presentation>
 </folder>
 </info>
-<info part="org.coocox.builder.ui.exampleView" ratio="0.21976471" ratioLeft="467" ratioRight="1658" relationship="2" relative="org.eclipse.ui.internal.ViewStack@3b5eb6"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@18e390" ratio="0.7195416" ratioLeft="1193" ratioRight="465" relationship="2" relative="org.coocox.builder.ui.exampleView">
+<info part="org.coocox.builder.ui.exampleView" ratio="0.3113658" ratioLeft="326" ratioRight="721" relationship="2" relative="org.eclipse.ui.internal.ViewStack@3b5eb6"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@18e390" ratio="0.81629115" ratioLeft="471" ratioRight="106" relationship="2" relative="org.coocox.builder.ui.exampleView">
 <folder activePageID="org.coocox.component.ui.Help" appearance="2" expanded="2">
 <page content="org.coocox.component.ui.Help" label="Help"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
@@ -210,55 +215,39 @@
 <view id="org.eclipse.cdt.dsf.debug.ui.disassembly.view"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@6a8a32">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@6a8a32">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1614" ratioRight="538" relationship="2" relative="org.eclipse.ui.internal.ViewStack@6a8a32">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1614" ratioRight="538" relationship="2" relative="org.eclipse.ui.internal.ViewStack@6a8a32">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@11c14ee" ratio="0.6993671" ratioLeft="884" ratioRight="380" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6a8a32">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@11c14ee" ratio="0.6993671" ratioLeft="884" ratioRight="380" relationship="4" relative="org.eclipse.ui.internal.ViewStack@6a8a32">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@4384c" ratio="0.5" ratioLeft="1076" ratioRight="1076" relationship="2" relative="org.eclipse.ui.internal.ViewStack@11c14ee">
-<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">
-<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4384c" ratio="0.5" ratioLeft="1076" ratioRight="1076" relationship="2" relative="org.eclipse.ui.internal.ViewStack@11c14ee">&#x0A;<folder activePageID="org.eclipse.debug.ui.ExpressionView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="Expressions"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10c2563" ratio="0.75" ratioLeft="1614" ratioRight="538" relationship="2" relative="org.eclipse.ui.internal.ViewStack@6a8a32">
-<folder activePageID="org.eclipse.cdt.dsf.debug.ui.disassembly.view" appearance="2" expanded="2">
-<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10c2563" ratio="0.75" ratioLeft="1614" ratioRight="538" relationship="2" relative="org.eclipse.ui.internal.ViewStack@6a8a32">&#x0A;<folder activePageID="org.eclipse.cdt.dsf.debug.ui.disassembly.view" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="Disassembly"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -281,43 +270,15 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/stm32f30x_it.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/can.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
 </editors>
-<item historyLabel="stm32f30x_it.c" index="2">
-<position info="not_deleted" x="5245" y="17"/>
-</item>
-<item historyLabel="hw_config.c" index="5">
-<position/>
-</item>
-<item historyLabel="VCP_F3.c" index="3">
-<position info="not_deleted" x="1841" y="10"/>
-</item>
-<item historyLabel="hw_config.c" index="5">
-<position/>
-</item>
-<item historyLabel="VCP_F3.c" index="3">
-<position info="not_deleted" x="1841" y="10"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="1750" y="8"/>
-</item>
-<item historyLabel="main.h" index="0">
-<position info="not_deleted" x="993" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="1222" y="0"/>
-</item>
-<item historyLabel="stm32f30x_it.c" index="2">
-<position info="not_deleted" x="4926" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="1246" y="0"/>
-</item>
-<item historyLabel="nvic.c" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.h" index="0">
-<position info="not_deleted" x="993" y="0"/>
-</item>
 <item historyLabel="nvic.c" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
@@ -429,8 +390,44 @@
 <item historyLabel="main.c" index="1">
 <position info="not_deleted" x="856" y="0"/>
 </item>
-<item active="true" historyLabel="can.c" index="8">
+<item historyLabel="can.c" index="8">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="can.h" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="can.c" index="8">
+<position info="not_deleted" x="8442" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="856" y="0"/>
+</item>
+<item historyLabel="main.h" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="can.c" index="14">
+<position info="not_deleted" x="10343" y="0"/>
+</item>
+<item historyLabel="can.h" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="can.c" index="14">
+<position info="not_deleted" x="10343" y="0"/>
+</item>
+<item historyLabel="main.c" index="16">
+<position info="not_deleted" x="856" y="0"/>
+</item>
+<item historyLabel="can.c" index="14">
+<position info="not_deleted" x="10343" y="0"/>
+</item>
+<item historyLabel="main.c" index="17">
+<position info="not_deleted" x="856" y="0"/>
+</item>
+<item historyLabel="main.h" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="17">
+<position info="not_deleted" x="856" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -439,6 +436,9 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/main.h">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="can.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/can.c">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/can.c"/>
 </file>
@@ -460,9 +460,6 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="nvic.c" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/nvic.c">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/nvic.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/main.h">
-<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/main.h"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32303c_eval.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32303c_eval.h"/>
 </file>
@@ -477,6 +474,9 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32_eval_legacy.h" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32_eval_legacy.h">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/STM32303C_EVAL/stm32_eval_legacy.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f30x.S" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/startup/startup_stm32f30x.S">
+<persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/startup/startup_stm32f30x.S"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f30x.S" tooltip="STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/startup/startup_stm32f30x.S">
 <persistable path="/STM32F303CB_CAN_Node_Encoder_VerA/cmsis_boot/startup/startup_stm32f30x.S"/>

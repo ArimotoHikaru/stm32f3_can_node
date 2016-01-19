@@ -216,9 +216,6 @@ void CAN_Configuration(void)
 
 }
 
-
-
-
 void USB_LP_CAN1_RX0_IRQHandler(void)
 {
 #ifdef USE_USB
